@@ -1,0 +1,244 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Frameset//EN" "http://www.w3.org/TR/html4/frameset.dtd">
+<html><head><title>Infrastructure Security Report</title>
+        <META http-equiv=Content-Type content='text/html; charset=windows-1252'>
+        <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+        <style type="text/css">
+
+        TABLE       {
+                        TABLE-LAYOUT: fixed; 
+                        FONT-SIZE: 100%; 
+                        WIDTH: 100%
+                    }
+        *
+                    {
+                        margin:0
+                    }
+        .hidden { display: none; }
+        .unhidden { display: block; }
+        .dspcont    {
+    
+                        BORDER-RIGHT: #bbbbbb 1px solid;
+                        BORDER-TOP: #bbbbbb 1px solid;
+                        PADDING-LEFT: 0px;
+                        FONT-SIZE: 8pt;
+                        MARGIN-BOTTOM: -1px;
+                        PADDING-BOTTOM: 5px;
+                        MARGIN-LEFT: 0px;
+                        BORDER-LEFT: #bbbbbb 1px solid;
+                        WIDTH: 95%;
+                        COLOR: #000000;
+                        MARGIN-RIGHT: 0px;
+                        PADDING-TOP: 4px;
+                        BORDER-BOTTOM: #bbbbbb 1px solid;
+                        FONT-FAMILY: Tahoma;
+                        POSITION: relative;
+                        BACKGROUND-COLOR: #f9f9f9
+                    }
+                    
+        .filler     {
+                        BORDER-RIGHT: medium none; 
+                        BORDER-TOP: medium none; 
+                        DISPLAY: block; 
+                        BACKGROUND: none transparent scroll repeat 0% 0%; 
+                        MARGIN-BOTTOM: -1px; 
+                        FONT: 100%/8px Tahoma; 
+                        MARGIN-LEFT: 43px; 
+                        BORDER-LEFT: medium none; 
+                        COLOR: #FFFFFF; 
+                        MARGIN-RIGHT: 0px; 
+                        PADDING-TOP: 4px; 
+                        BORDER-BOTTOM: medium none; 
+                        POSITION: relative
+                    }
+
+        .pageholder {
+                        margin: 0px auto;
+                    }
+                    
+        .dsp
+                    {
+                        BORDER-RIGHT: #bbbbbb 1px solid;
+                        PADDING-RIGHT: 0px;
+                        BORDER-TOP: #bbbbbb 1px solid;
+                        DISPLAY: block;
+                        PADDING-LEFT: 0px;
+                        FONT-WEIGHT: bold;
+                        FONT-SIZE: 8pt;
+                        MARGIN-BOTTOM: -1px;
+                        MARGIN-LEFT: 0px;
+                        BORDER-LEFT: #bbbbbb 1px solid;
+                        COLOR: #000000;
+                        MARGIN-RIGHT: 0px;
+                        PADDING-TOP: 4px;
+                        BORDER-BOTTOM: #bbbbbb 1px solid;
+                        FONT-FAMILY: Tahoma;
+                        POSITION: relative;
+                        HEIGHT: 2.25em;
+                        WIDTH: 95%;
+                        TEXT-INDENT: 10px;
+                    }
+
+        .dsphead0   {
+                        BACKGROUND-COLOR: #228B22;
+                    }
+                    
+        .dsphead1   {
+                        
+                        BACKGROUND-COLOR: #82CAFA;
+                    }
+        .dsphead2   {
+                        
+                        BACKGROUND-COLOR: #FFF380;
+                    }
+        .dsphead3   {
+                        
+                        BACKGROUND-COLOR: #FFF8C6;
+                    }     
+
+        .dsphead4   {
+                        BACKGROUND-COLOR: #58D3F7;
+                    }
+                          
+                    
+    .dspcomments    {
+                        BACKGROUND-COLOR:#FFFFE1;
+                        COLOR: #000000;
+                        FONT-STYLE: ITALIC;
+                        FONT-WEIGHT: normal;
+                        FONT-SIZE: 8pt;
+                    }
+
+    td              {
+                        VERTICAL-ALIGN: TOP; 
+                        FONT-FAMILY: Tahoma;
+                        FONT-SIZE: 8pt;
+                    }
+                    
+    th              {
+                        VERTICAL-ALIGN: TOP; 
+                        COLOR: #228B22; 
+                        TEXT-ALIGN: left;
+                    }
+    tr:nth-child(odd) { 
+                        background-color:#d3d3d3;
+                      } 
+    tr:nth-child(even) { 
+                        background-color:white;
+                      }
+                    
+    BODY            {
+                        margin-left: 4pt;
+                        margin-right: 4pt;
+                        margin-top: 6pt;
+                    } 
+    .MainTitle      {
+                        font-family:Arial, Helvetica, sans-serif;
+                        font-weight:bolder;
+                        color: #FF8040;
+                    }
+    .SubTitle       {
+                        font-family:Arial, Helvetica, sans-serif;
+                        font-size:14px;
+                        font-weight:bold;
+                    }
+    .Created        {
+                        font-family:Arial, Helvetica, sans-serif;
+                        font-size:10px;
+                        font-weight:normal;
+                        margin-top: 20px;
+                        margin-bottom:5px;
+                    }
+    .links          {   font:Arial, Helvetica, sans-serif;
+                        font-size:10px;
+                        FONT-STYLE: ITALIC;
+                    }
+                    
+        </style>
+        <script type="text/javascript">
+         function unhide(divID) {
+         var item = document.getElementById(divID);
+        if (item) {
+        item.className=(item.className=='hidden')?'unhidden':'hidden';
+        }
+        }
+        </script>  
+        <script>
+        td:contains('RED').css({'background-color':'RED'}); 
+        </script>   
+        <script>
+        td:contains('Green').css({'background-color':'Green'}); 
+        </script>  
+    
+    </head>
+    <body >
+        <div class="MainTitle"><font size="20ptx"><center>Infrastructure Security Report</center></font></div>
+        <hr size="8" color="#228B22">
+        <div class="SubTitle">Environment Security Report:1.0:: Generated on MOURYA:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</div>
+        <br/>
+        <hr size="4" color="#228B22">
+        <br/>
+        <div class="Created">Report created on 09/08/2015 00:29:00</div>
+        <div class="pageholder">        
+
+        <h1 class="dsp dsphead0">vCenter Server: vcenter.lab.com  --  vCenter Version and Build: VMware vCenter Server 6.0.0 build-2559268</h1>
+    
+        <div class="filler"></div>
+        <h2 class="dsp dsphead2">vCenter Security Information ::</h2>        <div class="dspcont">
+        <a href="javascript:unhide('head2');"><button>Show/Hide</button></a>
+        <div id="head2" class="hidden"><table> <colgroup><col/><col/><col/><col/></colgroup> <tr><th>Parameter</th><th>Description</th><th>vCenter</th><th>CurrentValue</th></tr> <tr><td>vCenter.verify-nfc-ssl</td><td>Check Network File Copy NFC uses SSL</td><td>vcenter.lab.com</td><td bgcolor="RED">Not Set</td></tr> </table>        </DIV>
+        </div>
+        <div class="filler"></div>        <div class="pageholder">        
+
+        <h1 class="dsp dsphead4">vSwitch Related Report ----</h1>
+    
+        <div class="filler"></div>
+        <h2 class="dsp dsphead2">vSwitch Related Security Report ::</h2>        <div class="dspcont">
+        <a href="javascript:unhide('head3');"><button>Show/Hide</button></a>
+        <div id="head3" class="hidden"><table> <colgroup><col/><col/><col/><col/><col/></colgroup> <tr><th>Parameter</th><th>Description</th><th>VMHost</th><th>vSwitch</th><th>CurrentValue</th></tr> <tr><td>vNetwork.reject-forged-transmit</td><td>Ensure that the Forged Transmits policy is set to reject</td><td>esxi2.lab.com</td><td>vSwitch0</td><td bgcolor="RED">Accept</td></tr> <tr><td>vNetwork.reject-mac-changes</td><td>Ensure that the MAC Address Changes policy is set to reject</td><td>esxi2.lab.com</td><td>vSwitch0</td><td bgcolor="RED">Accept</td></tr> <tr><td>vNetwork.reject-promiscuous-mode</td><td>Ensure that the Promiscuous Mode policy is set to reject</td><td>esxi2.lab.com</td><td>vSwitch0</td><td bgcolor="Green">Reject</td></tr> <tr><td>vNetwork.reject-forged-transmit</td><td>Ensure that the Forged Transmits policy is set to reject</td><td>esxi1.lab.com</td><td>vSwitch0</td><td bgcolor="RED">Accept</td></tr> <tr><td>vNetwork.reject-mac-changes</td><td>Ensure that the MAC Address Changes policy is set to reject</td><td>esxi1.lab.com</td><td>vSwitch0</td><td bgcolor="RED">Accept</td></tr> <tr><td>vNetwork.reject-promiscuous-mode</td><td>Ensure that the Promiscuous Mode policy is set to reject</td><td>esxi1.lab.com</td><td>vSwitch0</td><td bgcolor="Green">Reject</td></tr> </table>        </DIV>
+        </div>
+        <div class="filler"></div></DIV>        <div class="pageholder">        
+
+        <h1 class="dsp dsphead4">PortGroup Related Report ----</h1>
+    
+        <div class="filler"></div>
+        <h2 class="dsp dsphead2">PortGroup Wise Security Report ::</h2>        <div class="dspcont">
+        <a href="javascript:unhide('head4');"><button>Show/Hide</button></a>
+        <div id="head4" class="hidden"><table> <colgroup><col/><col/><col/><col/><col/></colgroup> <tr><th>Parameter</th><th>Description</th><th>DVSwitch</th><th>Portgroup</th><th>CurrentValue</th></tr> <tr><td>vNetwork.reject-mac-changes-dvportgroup</td><td>Ensure that the Mac Changes policy is set to reject</td><td>Cloud dvSwitch</td><td>Cloud dvSwitch-DVUplinks-881</td><td bgcolor="Green">Reject</td></tr> <tr><td>vNetwork.reject-forged-transmit-dvportgroup</td><td>Ensure that the Forged Transmits policy is set to reject</td><td>Cloud dvSwitch</td><td>Cloud dvSwitch-DVUplinks-881</td><td bgcolor="RED">Accept</td></tr> <tr><td>vNetwork.restrict-netflow-usage</td><td>Ensure that VDS Netflow traffic is only being sent to authorized collector IPs</td><td>Cloud dvSwitch</td><td>Cloud dvSwitch-DVUplinks-881</td><td bgcolor="RED">Not Configured</td></tr> <tr><td>vNetwork.reject-mac-changes-dvportgroup</td><td>Ensure that the Mac Changes policy is set to reject</td><td>Cloud dvSwitch</td><td>Cloud-Port-Group</td><td bgcolor="Green">Reject</td></tr> <tr><td>vNetwork.reject-forged-transmit-dvportgroup</td><td>Ensure that the Forged Transmits policy is set to reject</td><td>Cloud dvSwitch</td><td>Cloud-Port-Group</td><td bgcolor="Green">Reject</td></tr> <tr><td>vNetwork.restrict-netflow-usage</td><td>Ensure that VDS Netflow traffic is only being sent to authorized collector IPs</td><td>Cloud dvSwitch</td><td>Cloud-Port-Group</td><td bgcolor="RED">Not Configured</td></tr> <tr><td>vNetwork.reject-mac-changes-dvportgroup</td><td>Ensure that the Mac Changes policy is set to reject</td><td>Cloud dvSwitch</td><td>Management Network</td><td bgcolor="Green">Reject</td></tr> <tr><td>vNetwork.reject-forged-transmit-dvportgroup</td><td>Ensure that the Forged Transmits policy is set to reject</td><td>Cloud dvSwitch</td><td>Management Network</td><td bgcolor="Green">Reject</td></tr> <tr><td>vNetwork.restrict-netflow-usage</td><td>Ensure that VDS Netflow traffic is only being sent to authorized collector IPs</td><td>Cloud dvSwitch</td><td>Management Network</td><td bgcolor="RED">Not Configured</td></tr> <tr><td>vNetwork.reject-mac-changes-dvportgroup</td><td>Ensure that the Mac Changes policy is set to reject</td><td>Cloud dvSwitch</td><td>vMotion</td><td bgcolor="Green">Reject</td></tr> <tr><td>vNetwork.reject-forged-transmit-dvportgroup</td><td>Ensure that the Forged Transmits policy is set to reject</td><td>Cloud dvSwitch</td><td>vMotion</td><td bgcolor="Green">Reject</td></tr> <tr><td>vNetwork.restrict-netflow-usage</td><td>Ensure that VDS Netflow traffic is only being sent to authorized collector IPs</td><td>Cloud dvSwitch</td><td>vMotion</td><td bgcolor="RED">Not Configured</td></tr> <tr><td>vNetwork.reject-mac-changes-dvportgroup</td><td>Ensure that the Mac Changes policy is set to reject</td><td>Cloud dvSwitch</td><td>VSAN</td><td bgcolor="Green">Reject</td></tr> <tr><td>vNetwork.reject-forged-transmit-dvportgroup</td><td>Ensure that the Forged Transmits policy is set to reject</td><td>Cloud dvSwitch</td><td>VSAN</td><td bgcolor="Green">Reject</td></tr> <tr><td>vNetwork.restrict-netflow-usage</td><td>Ensure that VDS Netflow traffic is only being sent to authorized collector IPs</td><td>Cloud dvSwitch</td><td>VSAN</td><td bgcolor="RED">Not Configured</td></tr> <tr><td>vNetwork.reject-mac-changes-dvportgroup</td><td>Ensure that the Mac Changes policy is set to reject</td><td>Cloud dvSwitch</td><td>FT</td><td bgcolor="Green">Reject</td></tr> <tr><td>vNetwork.reject-forged-transmit-dvportgroup</td><td>Ensure that the Forged Transmits policy is set to reject</td><td>Cloud dvSwitch</td><td>FT</td><td bgcolor="Green">Reject</td></tr> <tr><td>vNetwork.restrict-netflow-usage</td><td>Ensure that VDS Netflow traffic is only being sent to authorized collector IPs</td><td>Cloud dvSwitch</td><td>FT</td><td bgcolor="RED">Not Configured</td></tr> </table>        </DIV>
+        </div>
+        <div class="filler"></div></DIV>        <div class="pageholder">        
+
+        <h1 class="dsp dsphead4">ESXi Host Security Level ----</h1>
+    
+        <div class="filler"></div>
+        <h2 class="dsp dsphead2">Locked Down User with Admin Rights ::</h2>        <div class="dspcont">
+        <a href="javascript:unhide('head5');"><button>Show/Hide</button></a>
+        <div id="head5" class="hidden"><table> <colgroup><col/><col/><col/><col/><col/></colgroup> <tr><th>Parameter</th><th>Description</th><th>VMHost</th><th>LDUsers</th><th>Admin</th></tr> <tr><td>ESXi.audit-exception-users</td><td>Audit the list of users who are on the Exception Users List and whether they have administrator privleges</td><td>esxi1.lab.com</td><td bgcolor="RED">No Locked Down User</td><td></td></tr> </table>        </DIV>
+        </div>
+        <div class="filler"></div>        <h2 class="dsp dsphead2">Host Wise Security Report ::</h2>        <div class="dspcont">
+        <a href="javascript:unhide('head6');"><button>Show/Hide</button></a>
+        <div id="head6" class="hidden">        <h2 class="dsp dsphead3">ESXi Host :: esxi2.lab.com :: Version: </h2>        <div class="dspcont"><table> <colgroup><col/><col/><col/><col/></colgroup> <tr><th>Parameter</th><th>Description</th><th>VMHost</th><th>Value</th></tr> <tr><td>ESXi.config-snmp</td><td>Ensure proper SNMP configuration</td><td>esxi2.lab.com</td><td bgcolor="Green">Enabled</td></tr> <tr><td>ESXi.disable-mob</td><td>Disable Managed Object Browser (MOB)</td><td>esxi2.lab.com</td><td bgcolor="RED">Enabled</td></tr> <tr><td>ESXi.enable-ad-auth</td><td>Use Active Directory for local user authentication</td><td>esxi2.lab.com</td><td bgcolor="RED">AD not Configured</td></tr> <tr><td>ESXi.enable-auth-proxy</td><td>When adding ESXi hosts to Active Directory use the vSphere Authentication Proxy to protect passwords</td><td>esxi2.lab.com</td><td bgcolor="RED">Host Profile not Configured</td></tr> <tr><td>ESXi.enable-chap-auth</td><td>Enable bidirectional CHAP, also known as Mutual CHAP, authentication for iSCSI traffic</td><td>esxi2.lab.com</td><td bgcolor="RED">CHAP Authentication not Configured</td></tr> <tr><td>ESXi.enable-normal-lockdown-mode</td><td>Enable Normal Lockdown Mode to restrict access</td><td>esxi2.lab.com</td><td bgcolor="Green">Enabled</td></tr> <tr><td>ESXi.enable-remote-syslog</td><td>Configure remote logging for ESXi hosts</td><td>esxi2.lab.com</td><td bgcolor="RED">Syslog not Configured</td></tr> <tr><td>ESXi.enable-strict-lockdown-mode</td><td>Enable Strict lockdown mode to restrict access</td><td>esxi2.lab.com</td><td bgcolor="Green">lockdownDisabled</td></tr> <tr><td>ESXi.set-password-policies</td><td>Establish a password policy for password complexity</td><td>esxi2.lab.com</td><td bgcolor="Green">retry=3 min=disabled,disabled,disabled,7,7</td></tr> <tr><td>ESXi.set-shell-interactive-timeout</td><td>Set a timeout to automatically terminate idle ESXi Shell and SSH sessions</td><td>esxi2.lab.com</td><td bgcolor="RED">Timeout Value not Configured</td></tr> <tr><td>ESXi.TransparentPageSharing-intra-enabled</td><td>Ensure default setting for intra-VM TPS is correct</td><td>esxi2.lab.com</td><td bgcolor="Green">Configured</td></tr> <tr><td>ESXi.config-ntp</td><td>Configure NTP time synchronization</td><td>esxi2.lab.com</td><td bgcolor="Green">192.168.1.39</td></tr> <tr><td>ESXi.config-persistent-logs</td><td>Configure persistent logging for all ESXi host</td><td>esxi2.lab.com</td><td bgcolor="Green">[] /scratch/log</td></tr> <tr><td>ESXi.verify-acceptance-level-accepted</td><td>Verify Image Profile and VIB Acceptance Levels</td><td>esxi2.lab.com</td><td bgcolor="RED">PartnerSupported</td></tr> <tr><td>vNetwork.verify-dvfilter-bind</td><td>Prevent unintended use of dvfilter network APIs</td><td>esxi2.lab.com</td><td bgcolor="RED">Not Set</td></tr> </table>        </DIV>
+
+        <div class="filler"></div>        <h2 class="dsp dsphead3">ESXi Host :: esxi1.lab.com :: Version: </h2>        <div class="dspcont"><table> <colgroup><col/><col/><col/><col/></colgroup> <tr><th>Parameter</th><th>Description</th><th>VMHost</th><th>Value</th></tr> <tr><td>ESXi.config-snmp</td><td>Ensure proper SNMP configuration</td><td>esxi1.lab.com</td><td bgcolor="Green">Enabled</td></tr> <tr><td>ESXi.disable-mob</td><td>Disable Managed Object Browser (MOB)</td><td>esxi1.lab.com</td><td bgcolor="RED">Enabled</td></tr> <tr><td>ESXi.enable-ad-auth</td><td>Use Active Directory for local user authentication</td><td>esxi1.lab.com</td><td bgcolor="RED">AD not Configured</td></tr> <tr><td>ESXi.enable-auth-proxy</td><td>When adding ESXi hosts to Active Directory use the vSphere Authentication Proxy to protect passwords</td><td>esxi1.lab.com</td><td bgcolor="RED">Host Profile not Configured</td></tr> <tr><td>ESXi.enable-chap-auth</td><td>Enable bidirectional CHAP, also known as Mutual CHAP, authentication for iSCSI traffic</td><td>esxi1.lab.com</td><td bgcolor="RED">CHAP Authentication not Configured</td></tr> <tr><td>ESXi.enable-normal-lockdown-mode</td><td>Enable Normal Lockdown Mode to restrict access</td><td>esxi1.lab.com</td><td bgcolor="Green">Enabled</td></tr> <tr><td>ESXi.enable-remote-syslog</td><td>Configure remote logging for ESXi hosts</td><td>esxi1.lab.com</td><td bgcolor="RED">Syslog not Configured</td></tr> <tr><td>ESXi.enable-strict-lockdown-mode</td><td>Enable Strict lockdown mode to restrict access</td><td>esxi1.lab.com</td><td bgcolor="Green">lockdownDisabled</td></tr> <tr><td>ESXi.set-password-policies</td><td>Establish a password policy for password complexity</td><td>esxi1.lab.com</td><td bgcolor="Green">retry=3 min=disabled,disabled,disabled,7,7</td></tr> <tr><td>ESXi.set-shell-interactive-timeout</td><td>Set a timeout to automatically terminate idle ESXi Shell and SSH sessions</td><td>esxi1.lab.com</td><td bgcolor="RED">Timeout Value not Configured</td></tr> <tr><td>ESXi.TransparentPageSharing-intra-enabled</td><td>Ensure default setting for intra-VM TPS is correct</td><td>esxi1.lab.com</td><td bgcolor="Green">Configured</td></tr> <tr><td>ESXi.config-ntp</td><td>Configure NTP time synchronization</td><td>esxi1.lab.com</td><td bgcolor="Green">192.168.1.39</td></tr> <tr><td>ESXi.config-persistent-logs</td><td>Configure persistent logging for all ESXi host</td><td>esxi1.lab.com</td><td bgcolor="Green">[] /scratch/log</td></tr> <tr><td>ESXi.verify-acceptance-level-accepted</td><td>Verify Image Profile and VIB Acceptance Levels</td><td>esxi1.lab.com</td><td bgcolor="RED">PartnerSupported</td></tr> <tr><td>vNetwork.verify-dvfilter-bind</td><td>Prevent unintended use of dvfilter network APIs</td><td>esxi1.lab.com</td><td bgcolor="RED">Not Set</td></tr> </table>        </DIV>
+
+        <div class="filler"></div>        </DIV>
+        </div>
+        <div class="filler"></div></DIV>        <div class="pageholder">        
+
+        <h1 class="dsp dsphead4">VM Security Level ----</h1>
+    
+        <div class="filler"></div>
+        <h2 class="dsp dsphead2">VM Wise Security Report ::</h2>        <div class="dspcont">
+        <a href="javascript:unhide('head7');"><button>Show/Hide</button></a>
+        <div id="head7" class="hidden">        <h2 class="dsp dsphead3">VM :: Test-Template </h2>        <div class="dspcont"><table> <colgroup><col/><col/><col/><col/><col/></colgroup> <tr><th>Parameter</th><th>Description</th><th>Name</th><th>Entity</th><th>Value</th></tr> <tr><td>VM.disable-console-copy</td><td>Explicitly disable copy/paste operations</td><td>isolation.tools.copy.disable</td><td>Test-Template</td><td bgcolor="Green">Configured</td></tr> <tr><td>VM.disable-console-drag-n-drop</td><td>Explicitly disable copy/paste operations</td><td>isolation.tools.dnd.disable</td><td>Test-Template</td><td bgcolor="RED">Not Configured</td></tr> <tr><td>VM.disable-console-gui-options</td><td>Explicitly disable copy/paste operations</td><td>isolation.tools.setGUIOptions.enable</td><td>Test-Template</td><td bgcolor="RED">Not Configured</td></tr> <tr><td>VM.disable-console-paste</td><td>Explicitly disable copy/paste operations</td><td>isolation.tools.paste.disable</td><td>Test-Template</td><td bgcolor="RED">Not Configured</td></tr> <tr><td>VM.disable-disk-shrinking-shrink</td><td>Disable virtual disk shrinking</td><td>isolation.tools.diskShrink.disable</td><td>Test-Template</td><td bgcolor="RED">Not Configured</td></tr> <tr><td>VM.disable-disk-shrinking-wiper</td><td>Disable virtual disk shrinking</td><td>isolation.tools.diskWiper.disable</td><td>Test-Template</td><td bgcolor="RED">Not Configured</td></tr> <tr><td>VM.disable-hgfs</td><td>Disable HGFS file transfers</td><td>isolation.tools.hgfsServerSet.disable</td><td>Test-Template</td><td bgcolor="RED">Not Configured</td></tr> <tr><td>VM.disable-unexposed-features-autologon</td><td>Disable certain unexposed features</td><td>isolation.tools.ghi.autologon.disable</td><td>Test-Template</td><td bgcolor="RED">Not Configured</td></tr> <tr><td>VM.disable-unexposed-features-biosbbs</td><td>Disable certain unexposed features</td><td>isolation.bios.bbs.disable</td><td>Test-Template</td><td bgcolor="RED">Not Configured</td></tr> <tr><td>VM.disable-unexposed-features-getcreds</td><td>Disable certain unexposed features</td><td>isolation.tools.getCreds.disable</td><td>Test-Template</td><td bgcolor="RED">Not Configured</td></tr> <tr><td>VM.disable-unexposed-features-launchmenu</td><td>Disable certain unexposed features</td><td>isolation.tools.ghi.launchmenu.change</td><td>Test-Template</td><td bgcolor="RED">Not Configured</td></tr> <tr><td>VM.disable-unexposed-features-memsfss</td><td>Disable certain unexposed features</td><td>isolation.tools.memSchedFakeSampleStats.disable</td><td>Test-Template</td><td bgcolor="RED">Not Configured</td></tr> <tr><td>VM.disable-unexposed-features-protocolhandler</td><td>Disable certain unexposed features</td><td>isolation.tools.ghi.protocolhandler.info.disable</td><td>Test-Template</td><td bgcolor="RED">Not Configured</td></tr> <tr><td>VM.disable-unexposed-features-shellaction</td><td>Disable certain unexposed features</td><td>isolation.ghi.host.shellAction.disable</td><td>Test-Template</td><td bgcolor="RED">Not Configured</td></tr> <tr><td>VM.disable-unexposed-features-toporequest</td><td>Disable certain unexposed features</td><td>isolation.tools.dispTopoRequest.disable</td><td>Test-Template</td><td bgcolor="RED">Not Configured</td></tr> <tr><td>VM.disable-unexposed-features-trashfolderstate</td><td>Disable certain unexposed features</td><td>isolation.tools.trashFolderState.disable</td><td>Test-Template</td><td bgcolor="RED">Not Configured</td></tr> <tr><td>VM.disable-unexposed-features-trayicon</td><td>Disable certain unexposed features</td><td>isolation.tools.ghi.trayicon.disable</td><td>Test-Template</td><td bgcolor="RED">Not Configured</td></tr> <tr><td>VM.disable-unexposed-features-unity</td><td>Disable certain unexposed features</td><td>isolation.tools.unity.disable</td><td>Test-Template</td><td bgcolor="RED">Not Configured</td></tr> <tr><td>VM.disable-unexposed-features-unity-interlock</td><td>Disable certain unexposed features</td><td>isolation.tools.unityInterlockOperation.disable</td><td>Test-Template</td><td bgcolor="RED">Not Configured</td></tr> <tr><td>VM.disable-unexposed-features-unitypush</td><td>Disable certain unexposed features</td><td>isolation.tools.unity.push.update.disable</td><td>Test-Template</td><td bgcolor="RED">Not Configured</td></tr> <tr><td>VM.disable-unexposed-features-unity-taskbar</td><td>Disable certain unexposed features</td><td>isolation.tools.unity.taskbar.disable</td><td>Test-Template</td><td bgcolor="RED">Not Configured</td></tr> <tr><td>VM.disable-unexposed-features-unity-unityactive</td><td>Disable certain unexposed features</td><td>isolation.tools.unityActive.disable</td><td>Test-Template</td><td bgcolor="RED">Not Configured</td></tr> <tr><td>VM.disable-unexposed-features-unity-windowcontents</td><td>Disable certain unexposed features</td><td>isolation.tools.unity.windowContents.disable</td><td>Test-Template</td><td bgcolor="RED">Not Configured</td></tr> <tr><td>VM.disable-unexposed-features-versionget</td><td>Disable certain unexposed features</td><td>isolation.tools.vmxDnDVersionGet.disable</td><td>Test-Template</td><td bgcolor="RED">Not Configured</td></tr> <tr><td>VM.disable-unexposed-features-versionset</td><td>Disable certain unexposed features</td><td>isolation.tools.guestDnDVersionSet.disable</td><td>Test-Template</td><td bgcolor="RED">Not Configured</td></tr> <tr><td>VM.disable-vix-messages</td><td>Disable VIX messages from the VM</td><td>isolation.tools.vixMessage.disable</td><td>Test-Template</td><td bgcolor="RED">Not Configured</td></tr> <tr><td>VM.disable-VMtools-autoinstall</td><td>Disable tools auto install</td><td>isolation.tools.autoInstall.disable</td><td>Test-Template</td><td bgcolor="RED">Not Configured</td></tr> <tr><td>VM.limit-setinfo-size</td><td>Disable tools auto install</td><td>tools.setInfo.sizeLimit</td><td>Test-Template</td><td bgcolor="RED">Not Configured</td></tr> <tr><td>RemoteDisplay.vnc.enabled</td><td>Remote Display VNC enabled</td><td>RemoteDisplay.vnc.enabled</td><td>Test-Template</td><td bgcolor="RED">Not Configured</td></tr> <tr><td>VM.prevent-device-interaction-connect</td><td>Prevent unauthorized removal, connection and modification of devices</td><td>isolation.device.connectable.disable</td><td>Test-Template</td><td bgcolor="RED">Not Configured</td></tr> <tr><td>VM.prevent-device-interaction-edit</td><td>Prevent unauthorized removal, connection and modification of devices</td><td>isolation.device.edit.disable</td><td>Test-Template</td><td bgcolor="RED">Not Configured</td></tr> <tr><td>VM.restrict-host-info</td><td>Restrict Host Information</td><td>tools.guestlib.enableHostInfo</td><td>Test-Template</td><td bgcolor="RED">Not Configured</td></tr> <tr><td>VM.TransparentPageSharing-inter-VM-Enabled</td><td>List the VMs and their current settings</td><td>Mem.ShareForceSalting</td><td>Test-Template</td><td bgcolor="RED">Not Configured</td></tr> <tr><td>VM.verify-network-filter</td><td>List the VMs and their current settings</td><td>ethernet*.filter*.name*</td><td>Test-Template</td><td bgcolor="RED">Not Configured</td></tr> <tr><td>VM.verify-PCI-Passthrough</td><td>List the VMs and their current settings</td><td>pciPassthru*.present</td><td>Test-Template</td><td bgcolor="RED">Not Configured</td></tr> </table>        </DIV>
+
+        <div class="filler"></div>        <h2 class="dsp dsphead3">VM :: vc-01 </h2>        <div class="dspcont"><table> <colgroup><col/><col/><col/><col/><col/></colgroup> <tr><th>Parameter</th><th>Description</th><th>Name</th><th>Entity</th><th>Value</th></tr> <tr><td>VM.disable-console-copy</td><td>Explicitly disable copy/paste operations</td><td>isolation.tools.copy.disable</td><td>vc-01</td><td bgcolor="Green">Configured</td></tr> <tr><td>VM.disable-console-drag-n-drop</td><td>Explicitly disable copy/paste operations</td><td>isolation.tools.dnd.disable</td><td>vc-01</td><td bgcolor="RED">Not Configured</td></tr> <tr><td>VM.disable-console-gui-options</td><td>Explicitly disable copy/paste operations</td><td>isolation.tools.setGUIOptions.enable</td><td>vc-01</td><td bgcolor="RED">Not Configured</td></tr> <tr><td>VM.disable-console-paste</td><td>Explicitly disable copy/paste operations</td><td>isolation.tools.paste.disable</td><td>vc-01</td><td bgcolor="RED">Not Configured</td></tr> <tr><td>VM.disable-disk-shrinking-shrink</td><td>Disable virtual disk shrinking</td><td>isolation.tools.diskShrink.disable</td><td>vc-01</td><td bgcolor="RED">Not Configured</td></tr> <tr><td>VM.disable-disk-shrinking-wiper</td><td>Disable virtual disk shrinking</td><td>isolation.tools.diskWiper.disable</td><td>vc-01</td><td bgcolor="RED">Not Configured</td></tr> <tr><td>VM.disable-hgfs</td><td>Disable HGFS file transfers</td><td>isolation.tools.hgfsServerSet.disable</td><td>vc-01</td><td bgcolor="RED">Not Configured</td></tr> <tr><td>VM.disable-unexposed-features-autologon</td><td>Disable certain unexposed features</td><td>isolation.tools.ghi.autologon.disable</td><td>vc-01</td><td bgcolor="RED">Not Configured</td></tr> <tr><td>VM.disable-unexposed-features-biosbbs</td><td>Disable certain unexposed features</td><td>isolation.bios.bbs.disable</td><td>vc-01</td><td bgcolor="RED">Not Configured</td></tr> <tr><td>VM.disable-unexposed-features-getcreds</td><td>Disable certain unexposed features</td><td>isolation.tools.getCreds.disable</td><td>vc-01</td><td bgcolor="RED">Not Configured</td></tr> <tr><td>VM.disable-unexposed-features-launchmenu</td><td>Disable certain unexposed features</td><td>isolation.tools.ghi.launchmenu.change</td><td>vc-01</td><td bgcolor="RED">Not Configured</td></tr> <tr><td>VM.disable-unexposed-features-memsfss</td><td>Disable certain unexposed features</td><td>isolation.tools.memSchedFakeSampleStats.disable</td><td>vc-01</td><td bgcolor="RED">Not Configured</td></tr> <tr><td>VM.disable-unexposed-features-protocolhandler</td><td>Disable certain unexposed features</td><td>isolation.tools.ghi.protocolhandler.info.disable</td><td>vc-01</td><td bgcolor="RED">Not Configured</td></tr> <tr><td>VM.disable-unexposed-features-shellaction</td><td>Disable certain unexposed features</td><td>isolation.ghi.host.shellAction.disable</td><td>vc-01</td><td bgcolor="RED">Not Configured</td></tr> <tr><td>VM.disable-unexposed-features-toporequest</td><td>Disable certain unexposed features</td><td>isolation.tools.dispTopoRequest.disable</td><td>vc-01</td><td bgcolor="RED">Not Configured</td></tr> <tr><td>VM.disable-unexposed-features-trashfolderstate</td><td>Disable certain unexposed features</td><td>isolation.tools.trashFolderState.disable</td><td>vc-01</td><td bgcolor="RED">Not Configured</td></tr> <tr><td>VM.disable-unexposed-features-trayicon</td><td>Disable certain unexposed features</td><td>isolation.tools.ghi.trayicon.disable</td><td>vc-01</td><td bgcolor="RED">Not Configured</td></tr> <tr><td>VM.disable-unexposed-features-unity</td><td>Disable certain unexposed features</td><td>isolation.tools.unity.disable</td><td>vc-01</td><td bgcolor="RED">Not Configured</td></tr> <tr><td>VM.disable-unexposed-features-unity-interlock</td><td>Disable certain unexposed features</td><td>isolation.tools.unityInterlockOperation.disable</td><td>vc-01</td><td bgcolor="RED">Not Configured</td></tr> <tr><td>VM.disable-unexposed-features-unitypush</td><td>Disable certain unexposed features</td><td>isolation.tools.unity.push.update.disable</td><td>vc-01</td><td bgcolor="RED">Not Configured</td></tr> <tr><td>VM.disable-unexposed-features-unity-taskbar</td><td>Disable certain unexposed features</td><td>isolation.tools.unity.taskbar.disable</td><td>vc-01</td><td bgcolor="RED">Not Configured</td></tr> <tr><td>VM.disable-unexposed-features-unity-unityactive</td><td>Disable certain unexposed features</td><td>isolation.tools.unityActive.disable</td><td>vc-01</td><td bgcolor="RED">Not Configured</td></tr> <tr><td>VM.disable-unexposed-features-unity-windowcontents</td><td>Disable certain unexposed features</td><td>isolation.tools.unity.windowContents.disable</td><td>vc-01</td><td bgcolor="RED">Not Configured</td></tr> <tr><td>VM.disable-unexposed-features-versionget</td><td>Disable certain unexposed features</td><td>isolation.tools.vmxDnDVersionGet.disable</td><td>vc-01</td><td bgcolor="RED">Not Configured</td></tr> <tr><td>VM.disable-unexposed-features-versionset</td><td>Disable certain unexposed features</td><td>isolation.tools.guestDnDVersionSet.disable</td><td>vc-01</td><td bgcolor="RED">Not Configured</td></tr> <tr><td>VM.disable-vix-messages</td><td>Disable VIX messages from the VM</td><td>isolation.tools.vixMessage.disable</td><td>vc-01</td><td bgcolor="RED">Not Configured</td></tr> <tr><td>VM.disable-VMtools-autoinstall</td><td>Disable tools auto install</td><td>isolation.tools.autoInstall.disable</td><td>vc-01</td><td bgcolor="RED">Not Configured</td></tr> <tr><td>VM.limit-setinfo-size</td><td>Disable tools auto install</td><td>tools.setInfo.sizeLimit</td><td>vc-01</td><td bgcolor="RED">Not Configured</td></tr> <tr><td>RemoteDisplay.vnc.enabled</td><td>Remote Display VNC enabled</td><td>RemoteDisplay.vnc.enabled</td><td>vc-01</td><td bgcolor="RED">Not Configured</td></tr> <tr><td>VM.prevent-device-interaction-connect</td><td>Prevent unauthorized removal, connection and modification of devices</td><td>isolation.device.connectable.disable</td><td>vc-01</td><td bgcolor="RED">Not Configured</td></tr> <tr><td>VM.prevent-device-interaction-edit</td><td>Prevent unauthorized removal, connection and modification of devices</td><td>isolation.device.edit.disable</td><td>vc-01</td><td bgcolor="RED">Not Configured</td></tr> <tr><td>VM.restrict-host-info</td><td>Restrict Host Information</td><td>tools.guestlib.enableHostInfo</td><td>vc-01</td><td bgcolor="RED">Not Configured</td></tr> <tr><td>VM.TransparentPageSharing-inter-VM-Enabled</td><td>List the VMs and their current settings</td><td>Mem.ShareForceSalting</td><td>vc-01</td><td bgcolor="RED">Not Configured</td></tr> <tr><td>VM.verify-network-filter</td><td>List the VMs and their current settings</td><td>ethernet*.filter*.name*</td><td>vc-01</td><td bgcolor="RED">Not Configured</td></tr> <tr><td>VM.verify-PCI-Passthrough</td><td>List the VMs and their current settings</td><td>pciPassthru*.present</td><td>vc-01</td><td bgcolor="RED">Not Configured</td></tr> </table>        </DIV>
+
+        <div class="filler"></div>        </DIV>
+        </div>
+        <div class="filler"></div></DIV></DIV></div>
+
+</body>
+</html></DIV></div>
+
+</body>
+</html>
